@@ -1,4 +1,8 @@
 function bienv(){
-    swal("Be patient!", "The website is under construction", "info");
-
+    Swal.fire({
+        title: 'Be patient!',
+        text: 'The website is under construction',
+        icon: 'info',
+        confirmButtonText: 'OK'
+      });
 }
